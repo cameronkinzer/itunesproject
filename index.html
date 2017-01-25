@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Itunes</title>
+    <link rel="stylesheet" href="itunes.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/> 
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  </head>
+  <body>
+<link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
+<!--form class="form-inline" onsubmit="itunesCtrl.getMusic(event)">
+        <DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM>
+        <div class="form-group">
+          <input type="text" class="form-control" name="artist" placeholder="Artist Name"/>
+          <button type="submit" class="btn btn-primary" id="get-music-button">Get Music</button>
+        </div>
+      </form-->
+      <div container class='text-center'> 
+        <div class="col-sm-12">
+      <h2><strong>Itunes Music Search App</strong></h2>
+  <div class="panel panel-default">
+<form class="form-inline" onsubmit="itunesCtrl.getMusic(event)">
+    <div class="form-group">
+    <div class="panel-body"> 
+      <input type="text" class="form-control" name="artist" placeholder="Artist Name"/>
+      <button type="submit" class="btn btn-warning" id="get-music-button">Find Music</button>
+      </div>
+        </div>
+      </div>
+      </div>
+      
+      
+      <!--div class="panel panel-default panel-table">
+    <div class="panel-heading">
+        <div class="tr">
+            <div class="col-sm-2 col-sm-offset-2">
+            <div class="td">Title</div></div>
+            <div class="col-sm-2">
+            <div class="td">Artist</div></div>
+            <div class="col-sm-2">
+            <div class="td">Album</div></div>
+            <div class="col-sm-2">
+              <div class="td">Price</div></div>
+            </div> 
+            </div>
+            </div-->
+      
+<div id="songs">
+        <table id>
+          
+        <tbody id="song-list">
+            
+          </tbody>
+            
+  <!--SONGS ADDED DYNAMICALLY HERE-->
+</table>
+
+      </div>
+      </div>
+      
+  <script src="itunes-service.js"></script> 
+  <script src="app.js"></script>
+  
+  </body>
+  </html>
